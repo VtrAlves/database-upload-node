@@ -1,26 +1,26 @@
-import { Router } from 'express';
+import { Router } from 'express'
 
 // import TransactionsRepository from '../repositories/TransactionsRepository';
 // import CreateTransactionService from '../services/CreateTransactionService';
 // import DeleteTransactionService from '../services/DeleteTransactionService';
 // import ImportTransactionsService from '../services/ImportTransactionsService';
 
-const transactionsRouter = Router();
+const transactionsRouter = Router()
 
 transactionsRouter.get('/', async (request, response) => {
-  // TODO
-});
+	// TODO
+})
 
 transactionsRouter.post('/', async (request, response) => {
-  // TODO
-});
+	// TODO
+})
 
 transactionsRouter.delete('/:id', async (request, response) => {
-  // TODO
-});
+	// TODO
+})
 
 transactionsRouter.post('/import', async (request, response) => {
-  // TODO
-});
+	// TODO
+})
 
-export default transactionsRouter;
+export default transactionsRouter
