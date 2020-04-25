@@ -49,9 +49,10 @@ class CreateTransactionService {
 			title,
 			value,
 			type,
-			categoryId: categoryExists.id
+			category: categoryExists
 		})
 
+		// delete transaction.categoryId
 		await transactionsRepository.save(transaction)
 
 		return transaction

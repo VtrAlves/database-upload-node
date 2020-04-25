@@ -24,7 +24,7 @@ class Transaction {
 	@Column('integer')
 	value: number
 
-	@Column()
+	@Column('uuid')
 	categoryId: string
 
 	@ManyToOne(() => Category)
