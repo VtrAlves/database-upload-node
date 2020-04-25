@@ -1,5 +1,5 @@
 <h3 align="center">
-  Desafio GoStack: Fundamentos Node.js
+  Desafio GoStack: Banco de dados e upload de arquivos no Node.js
 </h3>
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-%2304D361">
