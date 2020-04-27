@@ -7,7 +7,6 @@ import Transaction from '../models/Transaction'
 import Category from '../models/Category'
 import TransactionsRepository from '../repositories/TransactionsRepository'
 import UploadConfig from '../config/upload'
-import csvUtils from '../utils/csv'
 import AppError from '../errors/AppError'
 
 interface Request {
